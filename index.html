@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="logo">
+                <ul id="sidemenu">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Aspiring Developer</p>
+                <h1>Hi, I'm <span>Deepti Shelke</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Me2.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Hi, I am an Aspiring Developer with a strong foundation in Reactjs, JDBC, JAVA/J2EE, HTML, CSS, JavaScript, Hibernate/JPA, MYSQL . I am eager to embark on a dynamic career journey. 
+                        With a passion for crafting efficient, scalable solutions and a commitment to continuous learning, I'm excited to contribute fresh perspectives and grow alongside innovative teams. 
+                        My goal is to apply my knowledge and dedication to deliver impactful software solutions while continuously expanding my skills in the ever-evolving field of Java development.</p>
+
+                        <div class="tab-titles">
+                            
+                            <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                        </div>
+
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="education" >
+                            <ul>
+                                <li><span>2023</span><br>Post Graduation Diploma in Advance Computing from CDAC</li>
+                                <li><span>2022</span><br>Post Diploma in Mechatronics from IGTR,Aurangabad</li>
+                                <li><span>2021</span><br>Electrical Engineering from DBATU, Lonere</li>
+                                <li><span>2018</span><br>Electrical Engineering diploma from MSBTE</li>
+                                <li><span>2016</span><br>HSC from Maharashtra State Board</li>
+                            </ul>
+                            
+                        </div>
+
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------Skills--------- -->
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-tittle">My Skills</h1>
+                <div class="skills-list">
+                     <div>
+                        
+                        <img  class="image" src="./java.png" alt="">
+                     </div>
+                     <div>
+                       
+                        <img class="image" src="./springboot.png" alt="">
+                     </div>
+                     <div>
+                       
+                        <img class="image" src="./react.png" alt="">
+                     </div>
+                     <div>
+                       
+                        <img class="image" src="./html.png" alt="">
+                     </div>
+                     <div>
+                        
+                        <img class="image" src="./css.png" alt="">
+                     </div>
+                     <div>
+                        
+                        <img class="image" src="./js.png" alt="">
+                     </div>
+                     <div>
+                        
+                        <img class="image" src="./.net.png" alt="">
+                     </div>
+                     <div>
+                        
+                        <img class="image" src="./mysql.png" alt="">
+                     </div>
+                     
+                </div>
+           
+        </div>
+    </div>
+
+    <!-- ------------------Projects------------ -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work1.png" alt="">
+                     <div class="layer">
+                        <h3>E-commerse Website</h3>
+                        <p>An e-commerce website created using HTML, CSS,
+                             and JavaScript is a dynamic and visually appealing online platform.</p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                     </div>
+                </div>
+                <div class="work">
+                    <img src="./work2.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Calculator created using HTML, css and JavaScript</p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                     </div>
+                </div>
+                <div class="work">
+                    <img src="./work3.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media WebApp</h3>
+                        <p>A social media web application built using a REST API, React, and MySQL 
+                            is a dynamic and interactive platform that enables users to connect, share, and engage with others online.</p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                     </div>
+                </div>
+            </div>
+            <a href="#" class="btn ">See more</a>
+        </div>
+    </div>
+    <!-- -------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> deeptivijayshelke@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i> 7038960488</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/deepti-shelke-560a791ab/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://github.com/deeptshelke"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/___deepti_shelke___/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/DeeptiShelke"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
+                    <a href="./DeeptiCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © Deepti. Made by Deepti Shelke
+            </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzoRx7FM1gCEcJCLlR4N9PGJ-MfDcbjgzAS03Rx_8Oav9Bbp2tT6PC5TMBTyC3iB2Sb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
