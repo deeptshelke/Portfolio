@@ -25,13 +25,14 @@ body{
 
 .container{
     padding: 10px 10%;
-
+    position: relative;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+   
 }
 
 .logo{
