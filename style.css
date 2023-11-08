@@ -24,6 +24,7 @@ body{
 }
 
 .container{
+   
     padding: 10px 10%;
     position: relative;
 }
@@ -31,8 +32,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .logo{
@@ -71,6 +71,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    
 
 }
 
@@ -343,7 +344,7 @@ form .btn2{
     cursor: pointer;
 }
 
-.copyright{
+.footer{
     width: 100%;
     text-align: center;
     padding: 25px 0;
